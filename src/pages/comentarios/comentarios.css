@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Oswald:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-coment {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-coment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #eaeaea;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+}

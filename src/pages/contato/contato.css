@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Oswald:wght@500&display=swap');
+
+#faleconosco {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color:#eaeaea;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    background-image: url('https://oapolo.com.br/wp-content/uploads/2023/07/estas-son-primeras-imagenes-tercera-temporada-the-witcher_98.webp');
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+label {
+    background-color: #eaeaea;
+    border-radius: 8px;
+}
+
+input {
+    color: #eaeaea;
+}
+
+textarea{
+    color: #eaeaea;
+}
+
+.button-contato {
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color:#eaeaea;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button-contato:hover {
+    background-color: #eaeaea;
+    color: #000;
+}
+
+@media(max-width: 550px) {
+    form {
+        background-color: black;
+        background-image: none;
+        width: auto;
+        height: auto;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        color:#070707;
+        font-family: 'Montserrat', sans-serif;
+        outline: none;
+    }
+
+    label {
+        background-color: #000000;
+        color: #eaeaea;
+    }
+
+    textarea{
+        background-color: #eaeaea;
+        color: black;
+    }
+
+    input {
+        background-color: #eaeaea;
+        color: black;
+    }
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Oswald:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fotos {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+.content-fotos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-fotos {
+    width: 90%;
+    height: 300px;
+    border-radius: 8px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 20px 10px;
+    color: #eaeaea;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.cards-fotos:hover {
+    transform: scale(1.02);
+}
+
+.people {
+   width: 100%;
+   height: 300px;
+   border-radius: 8px;
+}
+
+span {
+    background: none;
+}
+
+.actor-name {
+    font-size: 13px;
+    color: #eaeaeac9;
+}
+
+@media(max-width: 530px) {
+
+    .container-fotos {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+
+@media(max-width: 430px) {
+
+    .container-fotos {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .cards-fotos {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+        color: #eaeaea;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .cards-fotos:hover {
+        transform: none;
+    }
+}

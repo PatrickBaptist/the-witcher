@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Oswald:wght@500&display=swap');
+
+.actor-cards-container {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #eaeaea;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://img.ibxk.com.br/2022/12/23/23120749737075.jpg?ims=328x')
+}
+.banner-2 {
+    background-image: url('https://i.pinimg.com/474x/1b/7a/53/1b7a5345bd61d886261dc5390bebf067.jpg')
+}
+.banner-3 {
+    background-image: url('https://mixdeseries.com.br/wp-content/uploads/2021/12/The-Witcher-2-1024x580.jpg')
+}
+
+@media(max-width: 468px) {
+
+    .actor-cards-container {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .cards-content {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0px;
+        column-gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        width: 100px;
+        height: 200px;
+        background-size: cover;
+        background-position: 50% 20%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+        color: #eaeaea;
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
