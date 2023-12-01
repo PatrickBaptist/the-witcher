@@ -10,7 +10,7 @@
 }
 
 #banner {
-    background-image: url('https://oapolo.com.br/wp-content/uploads/2023/07/estas-son-primeras-imagenes-tercera-temporada-the-witcher_98.webp');
+    background-image: url('https://seriemaniacos.tv/wp-content/uploads/2020/01/The-Witcher-Netflix-Banner-Header.jpg');
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
@@ -127,7 +127,7 @@
 @media(max-width: 468px) {
 
     #banner {
-        background-image: url('https://oapolo.com.br/wp-content/uploads/2023/07/estas-son-primeras-imagenes-tercera-temporada-the-witcher_98.webp');
+        background-image: url('https://seriemaniacos.tv/wp-content/uploads/2020/01/The-Witcher-Netflix-Banner-Header.jpg');
         width: 100%;
         height: 200px;
     }
